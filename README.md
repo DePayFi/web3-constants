@@ -16,11 +16,13 @@ import CONSTANTS from 'depay-blockchain-constants'
 CONSTANTS['ethereum'].ZERO  // '0x0000000000000000000000000000000000000000'
 CONSTANTS['ethereum'].MAXINT  // '115792089237316195423570985008687907853269984665640564039457584007913129639935'
 CONSTANTS['ethereum'].NATIVE  // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
+CONSTANTS['ethereum'].DECIMALS  // 18
 CONSTANTS['ethereum'].WRAPPED  // '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 
 CONSTANTS['bsc'].ZERO  // '0x0000000000000000000000000000000000000000'
 CONSTANTS['bsc'].MAXINT  // '115792089237316195423570985008687907853269984665640564039457584007913129639935'
 CONSTANTS['bsc'].NATIVE  // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
+CONSTANTS['bsc'].DECIMALS  // 18
 CONSTANTS['bsc'].WRAPPED  // '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
 ```
 
@@ -34,7 +36,7 @@ The Address Zero.
 CONSTANTS[blockchain].ZERO
 ```
 
-e.g. `CONSTANTS['ethereum'].ZERO // 0x0000000000000000000000000000000000000000`
+e.g. `CONSTANTS['ethereum'].ZERO // '0x0000000000000000000000000000000000000000'`
 
 ### MAXINT
 
@@ -44,7 +46,7 @@ The number value (as a string) representing the maximum integer value (usually u
 CONSTANTS[blockchain].MAXINT
 ```
 
-e.g. `CONSTANTS['ethereum'].ZERO // 115792089237316195423570985008687907853269984665640564039457584007913129639935`
+e.g. `CONSTANTS['ethereum'].ZERO // '115792089237316195423570985008687907853269984665640564039457584007913129639935'`
 
 ### NATIVE
 
@@ -54,7 +56,17 @@ The address used to represent the native blockchain token alongside other token 
 CONSTANTS[blockchain].NATIVE
 ```
 
-e.g. `CONSTANTS['ethereum'].NATIVE // 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE`
+e.g. `CONSTANTS['ethereum'].NATIVE // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'`
+
+### DECIMALS
+
+The decimals for the native token of the individual blockchain.
+
+```javascript
+CONSTANTS[blockchain].DECIMALS
+```
+
+e.g. `CONSTANTS['ethereum'].DECIMALS // 18`
 
 ### WRAPPED
 
@@ -64,7 +76,7 @@ The address of the token contract providing a wrapped token of individual blockc
 CONSTANTS[blockchain].WRAPPED
 ```
 
-e.g. `CONSTANTS['ethereum'].WRAPPED // 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2`
+e.g. `CONSTANTS['ethereum'].WRAPPED // '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'`
 
 
 ## Development

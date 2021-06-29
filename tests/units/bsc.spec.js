@@ -8,6 +8,7 @@ describe('bsc', () => {
     expect(CONSTANTS['bsc'].MAXINT).toEqual('115792089237316195423570985008687907853269984665640564039457584007913129639935')
     expect(CONSTANTS['bsc'].WRAPPED).toEqual('0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c')
     expect(CONSTANTS['bsc'].NATIVE).toEqual('0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE')
+    expect(CONSTANTS['bsc'].DECIMALS).toEqual(18)
 
   });
 });
