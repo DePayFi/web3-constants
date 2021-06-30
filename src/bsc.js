@@ -4,6 +4,8 @@ let CONSTANTS = {
   WRAPPED: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
   NATIVE: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
   DECIMALS: 18,
+  SYMBOL: 'BNB',
+  NAME: 'Binance Coin',
 }
 
 export { CONSTANTS }

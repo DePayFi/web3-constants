@@ -9,6 +9,8 @@ describe('bsc', () => {
     expect(CONSTANTS['bsc'].WRAPPED).toEqual('0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c')
     expect(CONSTANTS['bsc'].NATIVE).toEqual('0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE')
     expect(CONSTANTS['bsc'].DECIMALS).toEqual(18)
+    expect(CONSTANTS['bsc'].SYMBOL).toEqual('BNB')
+    expect(CONSTANTS['bsc'].NAME).toEqual('Binance Coin')
 
   });
 });

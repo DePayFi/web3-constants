@@ -4,6 +4,8 @@ let CONSTANTS = {
   WRAPPED: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
   NATIVE: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
   DECIMALS: 18,
+  SYMBOL: 'ETH',
+  NAME: 'Ether',
 }
 
 export { CONSTANTS }

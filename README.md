@@ -18,12 +18,16 @@ CONSTANTS['ethereum'].MAXINT  // '1157920892373161954235709850086879078532699846
 CONSTANTS['ethereum'].NATIVE  // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
 CONSTANTS['ethereum'].DECIMALS  // 18
 CONSTANTS['ethereum'].WRAPPED  // '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+CONSTANTS['ethereum'].SYMBOL  // 'ETH'
+CONSTANTS['ethereum'].NAME  // 'Ethereum'
 
 CONSTANTS['bsc'].ZERO  // '0x0000000000000000000000000000000000000000'
 CONSTANTS['bsc'].MAXINT  // '115792089237316195423570985008687907853269984665640564039457584007913129639935'
 CONSTANTS['bsc'].NATIVE  // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
 CONSTANTS['bsc'].DECIMALS  // 18
 CONSTANTS['bsc'].WRAPPED  // '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
+CONSTANTS['bsc'].SYMBOL  // 'BNB'
+CONSTANTS['bsc'].NAME  // 'Binance Smart Chain'
 ```
 
 ## Constants
@@ -77,6 +81,26 @@ CONSTANTS[blockchain].WRAPPED
 ```
 
 e.g. `CONSTANTS['ethereum'].WRAPPED // '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'`
+
+### SYMBOL
+
+The symbol of the native currency.
+
+```javascript
+CONSTANTS[blockchain].SYMBOL
+```
+
+e.g. `CONSTANTS['ethereum'].SYMBOL // 'ETH'`
+
+### NAME
+
+The name of the native token.
+
+```javascript
+CONSTANTS[blockchain].NAME
+```
+
+e.g. `CONSTANTS['ethereum'].NAME // 'Ethereum'`
 
 
 ## Development

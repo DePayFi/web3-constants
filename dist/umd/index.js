@@ -10,6 +10,8 @@
     WRAPPED: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
     NATIVE: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
     DECIMALS: 18,
+    SYMBOL: 'ETH',
+    NAME: 'Ether',
   };
 
   let CONSTANTS$1 = {
@@ -18,6 +20,8 @@
     WRAPPED: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     NATIVE: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
     DECIMALS: 18,
+    SYMBOL: 'BNB',
+    NAME: 'Binance Coin',
   };
 
   let CONSTANTS$2 = {};
