@@ -1,4 +1,4 @@
-import CONSTANTS from 'dist/cjs/index.js';
+import { CONSTANTS } from 'dist/cjs/index.js';
 
 describe('bsc', () => {
 

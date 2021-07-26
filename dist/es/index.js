@@ -1,5 +1,3 @@
-
-(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 let CONSTANTS = {
   ZERO: '0x0000000000000000000000000000000000000000',
   MAXINT: '115792089237316195423570985008687907853269984665640564039457584007913129639935',
