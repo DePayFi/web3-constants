@@ -1,8 +1,10 @@
+
+(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-  typeof define === 'function' && define.amd ? define(factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.BlockchainConstants = factory());
-}(this, (function () { 'use strict';
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+  typeof define === 'function' && define.amd ? define(['exports'], factory) :
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.Web3Constants = {}));
+}(this, (function (exports) { 'use strict';
 
   let CONSTANTS = {
     ZERO: '0x0000000000000000000000000000000000000000',
@@ -29,6 +31,8 @@
   CONSTANTS$2['ethereum'] = CONSTANTS;
   CONSTANTS$2['bsc'] = CONSTANTS$1;
 
-  return CONSTANTS$2;
+  exports.CONSTANTS = CONSTANTS$2;
+
+  Object.defineProperty(exports, '__esModule', { value: true });
 
 })));

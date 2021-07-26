@@ -1,4 +1,8 @@
+
+(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
 
 let CONSTANTS = {
   ZERO: '0x0000000000000000000000000000000000000000',
@@ -25,4 +29,4 @@ let CONSTANTS$2 = {};
 CONSTANTS$2['ethereum'] = CONSTANTS;
 CONSTANTS$2['bsc'] = CONSTANTS$1;
 
-module.exports = CONSTANTS$2;
+exports.CONSTANTS = CONSTANTS$2;
