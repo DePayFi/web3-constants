@@ -11,6 +11,7 @@ describe('bsc', () => {
     expect(CONSTANTS['bsc'].DECIMALS).toEqual(18)
     expect(CONSTANTS['bsc'].SYMBOL).toEqual('BNB')
     expect(CONSTANTS['bsc'].NAME).toEqual('Binance Coin')
+    expect(CONSTANTS['bsc'].USD).toEqual('0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3') // DAI
 
   });
 });

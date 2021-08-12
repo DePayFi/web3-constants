@@ -11,6 +11,7 @@ describe('ethereum', () => {
     expect(CONSTANTS['ethereum'].DECIMALS).toEqual(18)
     expect(CONSTANTS['ethereum'].SYMBOL).toEqual('ETH')
     expect(CONSTANTS['ethereum'].NAME).toEqual('Ether')
+    expect(CONSTANTS['ethereum'].USD).toEqual('0x6B175474E89094C44Da98b954EedeAC495271d0F') // DAI
     
   });
 });
