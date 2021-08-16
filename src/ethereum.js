@@ -5,7 +5,8 @@ let CONSTANTS = {
   NATIVE: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
   DECIMALS: 18,
   SYMBOL: 'ETH',
-  NAME: 'Ether',
+  CURRENCY: 'Ether',
+  NAME: 'Ethereum',
   USD: '0x6B175474E89094C44Da98b954EedeAC495271d0F'
 }
 

@@ -5,7 +5,8 @@ let CONSTANTS = {
   NATIVE: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
   DECIMALS: 18,
   SYMBOL: 'BNB',
-  NAME: 'Binance Coin',
+  CURRENCY: 'Binance Coin',
+  NAME: 'Binance Smart Chain',
   USD: '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3'
 }
 

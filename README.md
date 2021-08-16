@@ -19,6 +19,7 @@ CONSTANTS['ethereum'].NATIVE  // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
 CONSTANTS['ethereum'].DECIMALS  // 18
 CONSTANTS['ethereum'].WRAPPED  // '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 CONSTANTS['ethereum'].SYMBOL  // 'ETH'
+CONSTANTS['ethereum'].CURRENCY  // 'Ether'
 CONSTANTS['ethereum'].NAME  // 'Ethereum'
 CONSTANTS['ethereum'].USD  // '0x6B175474E89094C44Da98b954EedeAC495271d0F'
 
@@ -28,6 +29,7 @@ CONSTANTS['bsc'].NATIVE  // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
 CONSTANTS['bsc'].DECIMALS  // 18
 CONSTANTS['bsc'].WRAPPED  // '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
 CONSTANTS['bsc'].SYMBOL  // 'BNB'
+CONSTANTS['bsc'].CURRENCY  // 'Binance Coin'
 CONSTANTS['bsc'].NAME  // 'Binance Smart Chain'
 CONSTANTS['bsc'].USD  // '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3'
 ```
@@ -94,9 +96,19 @@ CONSTANTS[blockchain].SYMBOL
 
 e.g. `CONSTANTS['ethereum'].SYMBOL // 'ETH'`
 
+### CURRENCY
+
+The written-out name of the native token on that blockchain.
+
+```javascript
+CONSTANTS[blockchain].CURRENCY
+```
+
+e.g. `CONSTANTS['ethereum'].CURRENCY // 'Ether'`
+
 ### NAME
 
-The name of the native token.
+The written-out name of the blockchain.
 
 ```javascript
 CONSTANTS[blockchain].NAME
@@ -111,7 +123,7 @@ e.g. `CONSTANTS['ethereum'].NAME // 'Ethereum'`
 
 ```
 yarn install
-yarn start
+yarn dev
 ```
 
 ### Release
