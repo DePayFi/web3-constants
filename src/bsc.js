@@ -7,7 +7,7 @@ let CONSTANTS = {
   SYMBOL: 'BNB',
   CURRENCY: 'Binance Coin',
   NAME: 'Binance Smart Chain',
-  USD: '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3'
+  USD: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56'
 }
 
 export { CONSTANTS }

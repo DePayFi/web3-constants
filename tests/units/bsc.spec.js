@@ -12,7 +12,7 @@ describe('bsc', () => {
     expect(CONSTANTS['bsc'].SYMBOL).toEqual('BNB')
     expect(CONSTANTS['bsc'].CURRENCY).toEqual('Binance Coin')
     expect(CONSTANTS['bsc'].NAME).toEqual('Binance Smart Chain')
-    expect(CONSTANTS['bsc'].USD).toEqual('0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3') // DAI
+    expect(CONSTANTS['bsc'].USD).toEqual('0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56') // BUSD
 
   });
 });
