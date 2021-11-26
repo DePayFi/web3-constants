@@ -1,17 +1,17 @@
 ## Quickstart
 
 ```
-yarn add depay-web3-constants
+yarn add @depay/web3-constants
 ```
 
 or 
 
 ```
-npm install --save depay-web3-constants
+npm install --save @depay/web3-constants
 ```
 
 ```javascript
-import { CONSTANTS } from 'depay-web3-constants'
+import { CONSTANTS } from '@depay/web3-constants'
 
 CONSTANTS['ethereum'].ZERO  // '0x0000000000000000000000000000000000000000'
 CONSTANTS['ethereum'].MAXINT  // '115792089237316195423570985008687907853269984665640564039457584007913129639935'
