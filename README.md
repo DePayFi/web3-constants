@@ -17,7 +17,7 @@ CONSTANTS['ethereum'].ZERO  // '0x0000000000000000000000000000000000000000'
 CONSTANTS['ethereum'].MAXINT  // '115792089237316195423570985008687907853269984665640564039457584007913129639935'
 CONSTANTS['ethereum'].NATIVE  // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
 CONSTANTS['ethereum'].DECIMALS  // 18
-CONSTANTS['ethereum'].WRAPPED  // '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+CONSTANTS['ethereum'].WRAPPED  // '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
 CONSTANTS['ethereum'].SYMBOL  // 'ETH'
 CONSTANTS['ethereum'].CURRENCY  // 'Ether'
 CONSTANTS['ethereum'].NAME  // 'Ethereum'
@@ -84,7 +84,7 @@ The address of the token contract providing a wrapped token of individual blockc
 CONSTANTS[blockchain].WRAPPED
 ```
 
-e.g. `CONSTANTS['ethereum'].WRAPPED // '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'`
+e.g. `CONSTANTS['ethereum'].WRAPPED // '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'`
 
 ### SYMBOL
 

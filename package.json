@@ -1,7 +1,7 @@
 {
   "name": "@depay/web3-constants",
   "moduleName": "Web3Constants",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "JavaScript library providing all common constants for web3 blockchains like MAXINT, ZERO etc.",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
