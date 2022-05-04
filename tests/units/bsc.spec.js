@@ -10,8 +10,8 @@ describe('bsc', () => {
     expect(CONSTANTS['bsc'].NATIVE).toEqual('0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE')
     expect(CONSTANTS['bsc'].DECIMALS).toEqual(18)
     expect(CONSTANTS['bsc'].SYMBOL).toEqual('BNB')
-    expect(CONSTANTS['bsc'].CURRENCY).toEqual('Binance Coin')
-    expect(CONSTANTS['bsc'].NAME).toEqual('Binance Smart Chain')
+    expect(CONSTANTS['bsc'].CURRENCY).toEqual('BNB')
+    expect(CONSTANTS['bsc'].NAME).toEqual('BNB Smart Chain')
     expect(CONSTANTS['bsc'].USD).toEqual('0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56') // BUSD
 
   });
