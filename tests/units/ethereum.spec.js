@@ -13,7 +13,6 @@ describe('ethereum', () => {
     expect(CONSTANTS['ethereum'].CURRENCY).toEqual('Ether')
     expect(CONSTANTS['ethereum'].NAME).toEqual('Ethereum')
     expect(CONSTANTS['ethereum'].USD).toEqual('0x6B175474E89094C44Da98b954EedeAC495271d0F') // DAI
-    expect(CONSTANTS['ethereum'].TRANSFER_GAS).toEqual(21000)
     
   });
 });

@@ -13,7 +13,6 @@ describe('polygon', () => {
     expect(CONSTANTS['polygon'].CURRENCY).toEqual('Polygon')
     expect(CONSTANTS['polygon'].NAME).toEqual('Polygon')
     expect(CONSTANTS['polygon'].USD).toEqual('0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174') // USDC
-    expect(CONSTANTS['polygon'].TRANSFER_GAS).toEqual(21000)
 
   });
 });
