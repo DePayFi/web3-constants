@@ -13,8 +13,7 @@
     SYMBOL: 'ETH',
     CURRENCY: 'Ether',
     NAME: 'Ethereum',
-    USD: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
-    TRANSFER_GAS: 21000
+    USD: '0x6B175474E89094C44Da98b954EedeAC495271d0F'
   };
 
   let CONSTANTS$1 = {
@@ -26,8 +25,7 @@
     SYMBOL: 'BNB',
     CURRENCY: 'BNB',
     NAME: 'BNB Smart Chain',
-    USD: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
-    TRANSFER_GAS: 21000
+    USD: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56'
   };
 
   let CONSTANTS$2 = {
@@ -40,16 +38,28 @@
     CURRENCY: 'Polygon',
     NAME: 'Polygon',
     USD: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
-    TRANSFER_GAS: 21000
   };
 
-  let CONSTANTS$3 = {};
+  let CONSTANTS$3 = {
+    ZERO: '0',
+    MAXINT: '18446744073709551615',
+    WRAPPED: 'So11111111111111111111111111111111111111112',
+    NATIVE: 'SOL',
+    DECIMALS: 9,
+    SYMBOL: 'SOL',
+    CURRENCY: 'Solana',
+    NAME: 'Solana',
+    USD: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'
+  };
 
-  CONSTANTS$3['ethereum'] = CONSTANTS;
-  CONSTANTS$3['bsc'] = CONSTANTS$1;
-  CONSTANTS$3['polygon'] = CONSTANTS$2;
+  let CONSTANTS$4 = {};
 
-  exports.CONSTANTS = CONSTANTS$3;
+  CONSTANTS$4['ethereum'] = CONSTANTS;
+  CONSTANTS$4['bsc'] = CONSTANTS$1;
+  CONSTANTS$4['polygon'] = CONSTANTS$2;
+  CONSTANTS$4['solana'] = CONSTANTS$3;
+
+  exports.CONSTANTS = CONSTANTS$4;
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
