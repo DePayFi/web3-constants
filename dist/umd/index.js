@@ -13,7 +13,8 @@
     SYMBOL: 'ETH',
     CURRENCY: 'Ether',
     NAME: 'Ethereum',
-    USD: '0x6B175474E89094C44Da98b954EedeAC495271d0F'
+    USD: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
+    USD_DECIMALS: 18
   };
 
   let CONSTANTS$1 = {
@@ -25,7 +26,8 @@
     SYMBOL: 'BNB',
     CURRENCY: 'BNB',
     NAME: 'BNB Smart Chain',
-    USD: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56'
+    USD: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
+    USD_DECIMALS: 18
   };
 
   let CONSTANTS$2 = {
@@ -38,6 +40,7 @@
     CURRENCY: 'Polygon',
     NAME: 'Polygon',
     USD: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+    USD_DECIMALS: 6
   };
 
   let CONSTANTS$3 = {
@@ -49,7 +52,8 @@
     SYMBOL: 'SOL',
     CURRENCY: 'Solana',
     NAME: 'Solana',
-    USD: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'
+    USD: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
+    USD_DECIMALS: 6
   };
 
   let CONSTANTS$4 = {};

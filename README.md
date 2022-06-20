@@ -13,26 +13,39 @@ npm install --save @depay/web3-constants
 ```javascript
 import { CONSTANTS } from '@depay/web3-constants'
 
-CONSTANTS['ethereum'].ZERO  // '0x0000000000000000000000000000000000000000'
-CONSTANTS['ethereum'].MAXINT  // '115792089237316195423570985008687907853269984665640564039457584007913129639935'
-CONSTANTS['ethereum'].NATIVE  // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
-CONSTANTS['ethereum'].DECIMALS  // 18
-CONSTANTS['ethereum'].WRAPPED  // '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
-CONSTANTS['ethereum'].SYMBOL  // 'ETH'
-CONSTANTS['ethereum'].CURRENCY  // 'Ether'
-CONSTANTS['ethereum'].NAME  // 'Ethereum'
-CONSTANTS['ethereum'].USD  // '0x6B175474E89094C44Da98b954EedeAC495271d0F' (DAI)
+CONSTANTS['ethereum'].ZERO          // '0x0000000000000000000000000000000000000000'
+CONSTANTS['ethereum'].MAXINT        // '115792089237316195423570985008687907853269984665640564039457584007913129639935'
+CONSTANTS['ethereum'].NATIVE        // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
+CONSTANTS['ethereum'].DECIMALS      // 18
+CONSTANTS['ethereum'].WRAPPED       // '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
+CONSTANTS['ethereum'].SYMBOL        // 'ETH'
+CONSTANTS['ethereum'].CURRENCY      // 'Ether'
+CONSTANTS['ethereum'].NAME          // 'Ethereum'
+CONSTANTS['ethereum'].USD           // '0x6B175474E89094C44Da98b954EedeAC495271d0F' (DAI)
+CONSTANTS['ethereum'].USD_DECIMALS  // 18
 
-CONSTANTS['bsc'].ZERO  // '0x0000000000000000000000000000000000000000'
-CONSTANTS['bsc'].MAXINT  // '115792089237316195423570985008687907853269984665640564039457584007913129639935'
-CONSTANTS['bsc'].NATIVE  // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
-CONSTANTS['bsc'].DECIMALS  // 18
-CONSTANTS['bsc'].WRAPPED  // '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
-CONSTANTS['bsc'].SYMBOL  // 'BNB'
-CONSTANTS['bsc'].CURRENCY  // 'Binance Coin'
-CONSTANTS['bsc'].NAME  // 'Binance Smart Chain'
-CONSTANTS['bsc'].USD  // '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56' (BUSD)
+CONSTANTS['bsc'].ZERO               // '0x0000000000000000000000000000000000000000'
+CONSTANTS['bsc'].MAXINT             // '115792089237316195423570985008687907853269984665640564039457584007913129639935'
+CONSTANTS['bsc'].NATIVE             // '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
+CONSTANTS['bsc'].DECIMALS           // 18
+CONSTANTS['bsc'].WRAPPED            // '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
+CONSTANTS['bsc'].SYMBOL             // 'BNB'
+CONSTANTS['bsc'].CURRENCY           // 'Binance Coin'
+CONSTANTS['bsc'].NAME               // 'Binance Smart Chain'
+CONSTANTS['bsc'].USD                // '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56' (BUSD)
+CONSTANTS['bsc'].USD_DECIMALS       // 18
+
+// etc ...
 ```
+
+## Support
+
+This library supports the following blockchains:
+
+- [Ethereum](https://ethereum.org)
+- [BNB Smart Chain](https://www.binance.org/smartChain)
+- [Polygon](https://polygon.technology)
+- [Solana](https://solana.com/)
 
 ## Constants
 

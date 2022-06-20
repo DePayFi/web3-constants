@@ -13,6 +13,7 @@ describe('solana', () => {
     expect(CONSTANTS['solana'].CURRENCY).toEqual('Solana')
     expect(CONSTANTS['solana'].NAME).toEqual('Solana')
     expect(CONSTANTS['solana'].USD).toEqual('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v') // USDC
+    expect(CONSTANTS['solana'].USD_DECIMALS).toEqual(6)
 
   });
 });
