@@ -5,7 +5,7 @@ describe('solana', () => {
   it('provides constants for the solana blockchain', async ()=> {
 
     expect(CONSTANTS['solana'].ZERO).toEqual('0')
-    expect(CONSTANTS['solana'].MAXINT).toEqual('18446744073709551615')
+    expect(CONSTANTS['solana'].MAXINT).toEqual('340282366920938463463374607431768211455')
     expect(CONSTANTS['solana'].WRAPPED).toEqual('So11111111111111111111111111111111111111112')
     expect(CONSTANTS['solana'].NATIVE).toEqual('11111111111111111111111111111111')
     expect(CONSTANTS['solana'].DECIMALS).toEqual(9)
