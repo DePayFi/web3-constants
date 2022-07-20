@@ -14,6 +14,8 @@ describe('solana', () => {
     expect(CONSTANTS['solana'].NAME).toEqual('Solana')
     expect(CONSTANTS['solana'].USD).toEqual('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v') // USDC
     expect(CONSTANTS['solana'].USD_DECIMALS).toEqual(6)
+    expect(CONSTANTS['solana'].TOKEN_PROGRAM).toEqual('TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA')
+    expect(CONSTANTS['solana'].ASSOCIATED_TOKEN_PROGRAM).toEqual('ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL')
 
   });
 });
