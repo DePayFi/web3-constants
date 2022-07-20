@@ -56,8 +56,6 @@ CONSTANTS['solana'].CURRENCY                  // 'Solana'
 CONSTANTS['solana'].NAME                      // 'Solana'
 CONSTANTS['solana'].USD                       // 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v' (USDC)
 CONSTANTS['solana'].USD_DECIMALS              // 6
-CONSTANTS['solana'].TOKEN_PROGRAM             // 'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA'
-CONSTANTS['solana'].ASSOCIATED_TOKEN_PROGRAM  // 'ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL'
 ```
 
 ## Support
