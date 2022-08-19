@@ -46,16 +46,16 @@ CONSTANTS['polygon'].NAME           // 'Polygon'
 CONSTANTS['polygon'].USD            // '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174' (USDC)
 CONSTANTS['polygon'].USD_DECIMALS   // 18
 
-CONSTANTS['solana'].ZERO                      // '0'
-CONSTANTS['solana'].MAXINT                    // '340282366920938463463374607431768211455'
-CONSTANTS['solana'].NATIVE                    // '11111111111111111111111111111111'
-CONSTANTS['solana'].DECIMALS                  // 9
-CONSTANTS['solana'].WRAPPED                   // 'So11111111111111111111111111111111111111112'
-CONSTANTS['solana'].SYMBOL                    // 'SOL'
-CONSTANTS['solana'].CURRENCY                  // 'Solana'
-CONSTANTS['solana'].NAME                      // 'Solana'
-CONSTANTS['solana'].USD                       // 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v' (USDC)
-CONSTANTS['solana'].USD_DECIMALS              // 6
+CONSTANTS['solana'].ZERO            // '0'
+CONSTANTS['solana'].MAXINT          // '340282366920938463463374607431768211455'
+CONSTANTS['solana'].NATIVE          // '11111111111111111111111111111111'
+CONSTANTS['solana'].DECIMALS        // 9
+CONSTANTS['solana'].WRAPPED         // 'So11111111111111111111111111111111111111112'
+CONSTANTS['solana'].SYMBOL          // 'SOL'
+CONSTANTS['solana'].CURRENCY        // 'Solana'
+CONSTANTS['solana'].NAME            // 'Solana'
+CONSTANTS['solana'].USD             // 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v' (USDC)
+CONSTANTS['solana'].USD_DECIMALS    // 6
 ```
 
 ## Support
