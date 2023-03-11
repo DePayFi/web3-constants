@@ -7,7 +7,7 @@ let CONSTANTS = {
   SYMBOL: 'SOL',
   CURRENCY: 'Solana',
   NAME: 'Solana',
-  USD: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
+  USD: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
   USD_DECIMALS: 6
 }
 

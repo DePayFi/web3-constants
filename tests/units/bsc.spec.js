@@ -12,7 +12,7 @@ describe('bsc', () => {
     expect(CONSTANTS['bsc'].SYMBOL).toEqual('BNB')
     expect(CONSTANTS['bsc'].CURRENCY).toEqual('BNB')
     expect(CONSTANTS['bsc'].NAME).toEqual('BNB Smart Chain')
-    expect(CONSTANTS['bsc'].USD).toEqual('0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56') // BUSD
+    expect(CONSTANTS['bsc'].USD).toEqual('0x55d398326f99059fF775485246999027B3197955')
     expect(CONSTANTS['bsc'].USD_DECIMALS).toEqual(18)
 
   });

@@ -13,7 +13,7 @@
     SYMBOL: 'BNB',
     CURRENCY: 'BNB',
     NAME: 'BNB Smart Chain',
-    USD: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
+    USD: '0x55d398326f99059fF775485246999027B3197955',
     USD_DECIMALS: 18
   };
 
@@ -26,8 +26,8 @@
     SYMBOL: 'ETH',
     CURRENCY: 'Ether',
     NAME: 'Ethereum',
-    USD: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
-    USD_DECIMALS: 18
+    USD: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
+    USD_DECIMALS: 6
   };
 
   let CONSTANTS$2 = {
@@ -39,8 +39,8 @@
     SYMBOL: 'FTM',
     CURRENCY: 'Fantom',
     NAME: 'Fantom',
-    USD: '0x04068da6c83afcfa0e13ba15a6696662335d5b75',
-    USD_DECIMALS: 6
+    USD: '0x9879aBDea01a879644185341F7aF7d8343556B7a',
+    USD_DECIMALS: 18
   };
 
   let CONSTANTS$3 = {
@@ -52,7 +52,7 @@
     SYMBOL: 'MATIC',
     CURRENCY: 'Polygon',
     NAME: 'Polygon',
-    USD: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+    USD: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
     USD_DECIMALS: 6
   };
 
@@ -65,7 +65,7 @@
     SYMBOL: 'SOL',
     CURRENCY: 'Solana',
     NAME: 'Solana',
-    USD: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
+    USD: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
     USD_DECIMALS: 6
   };
 
@@ -78,8 +78,8 @@
     SYMBOL: 'VLX',
     CURRENCY: 'Velas',
     NAME: 'Velas',
-    USD: '0xc111c29A988AE0C0087D97b33C6E6766808A3BD3',
-    USD_DECIMALS: 18
+    USD: '0x01445c31581c354b7338ac35693ab2001b50b9ae',
+    USD_DECIMALS: 6
   };
 
   let CONSTANTS$6 = {};

@@ -12,8 +12,8 @@ describe('fantom', () => {
     expect(CONSTANTS['fantom'].SYMBOL).toEqual('FTM')
     expect(CONSTANTS['fantom'].CURRENCY).toEqual('Fantom')
     expect(CONSTANTS['fantom'].NAME).toEqual('Fantom')
-    expect(CONSTANTS['fantom'].USD).toEqual('0x04068da6c83afcfa0e13ba15a6696662335d5b75') // USDC
-    expect(CONSTANTS['fantom'].USD_DECIMALS).toEqual(6)
+    expect(CONSTANTS['fantom'].USD).toEqual('0x9879aBDea01a879644185341F7aF7d8343556B7a')
+    expect(CONSTANTS['fantom'].USD_DECIMALS).toEqual(18)
 
   });
 });
