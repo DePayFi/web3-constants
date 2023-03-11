@@ -12,7 +12,7 @@ describe('velas', () => {
     expect(CONSTANTS['velas'].SYMBOL).toEqual('VLX')
     expect(CONSTANTS['velas'].CURRENCY).toEqual('Velas')
     expect(CONSTANTS['velas'].NAME).toEqual('Velas')
-    expect(CONSTANTS['velas'].USD).toEqual('0x01445c31581c354b7338ac35693ab2001b50b9ae')
+    expect(CONSTANTS['velas'].USD).toEqual('0x01445C31581c354b7338AC35693AB2001B50b9aE')
     expect(CONSTANTS['velas'].USD_DECIMALS).toEqual(6)
 
   });
